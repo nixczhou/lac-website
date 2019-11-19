@@ -1,0 +1,158 @@
+body
+{
+	text-align: justify;
+	line-height: 1.8em;
+	font-family: 'calibri', 'Noto Sans TC', 'Microsoft JhengHei', sans-serif;
+	margin : 0px;
+}
+
+a {
+	text-decoration: none;
+	word-wrap: break-word;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.wp-block-table.is-style-stripes{
+    border-collapse: collapse !important;
+}
+
+.header{
+	background : url(/wp-content/themes/LAC/nctu/images/head-bar-bg.png) no-repeat center 0 transparent;
+	height : auto;
+	background-size: cover;
+}
+
+.top-header{
+	background-color: #FFFFFF;
+	width: 70%;
+	margin-left:12%;
+}
+
+.navbar {
+	margin-top :3%;
+	margin-left : 12%;
+}
+
+#container{
+	margin-left : 12%;
+	margin-right : 28%;
+}
+
+
+.homepage-content{
+	margin-left : 12%;
+}
+
+.time{
+	float:left;
+	font-size: 1.2em;
+}
+
+.news-title{
+	font-size: 1.2em;
+	width:75%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/*-----Alignment-----*/
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+/*-----Back to Top Button--------*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+
+#return-to-top{
+	z-index: 1000;
+}
+
+/*--------Download Link Box and Page Style---------*/
+
+.i-archive__file-wrap{
+	border-radius: 5px;
+    margin: 0 0 10px;
+    padding: 6px 0.8em;
+    background: #eee;
+}
+
+.i-archive__file-wrap a{
+	color: #666666;
+}
+
+.i-archive__file-wrap a:hover{
+	color: #4169E1;
+}
+
+
+.i-archive__file-wrap:hover{
+	background : #C0C0C0;
+}
+
+.label-primary{
+	padding : 2px 4px 2px 4px;
+	color: white;
+	border-radius: 3px;
+	margin-left: 5px;
+	background-color: #8f8f8f;
+}
+
+/*---------服務項目 Style---------*/
+
+.service{
+	font-size: 30px;
+	color : #666666;
+}
+
+.service:hover{
+	color : #337ab7;
+}
